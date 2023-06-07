@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Symptom Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .chatbot-container {
+            height: 600px;
+            width: 400px;
+            margin-top: 20px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .chatbot-iframe {
+            border: 0;
+            border-radius: 4px;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Health Symptom Checker</h1>
+        <p>Describe your symptoms and get suggestions.</p>
+
+        <!-- Chatbot Embed -->
+        <div class="chatbot-container">
+            <iframe class="chatbot-iframe"
+                src="https://ora.ai/embed/0706be03-3bd5-4703-89f1-cce968a4d597">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
